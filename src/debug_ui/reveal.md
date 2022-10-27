@@ -12,3 +12,5 @@ TODO：
 ---
 
 iOS逆向中，用来调试界面元素，比较好用的工具之一就是：`Reveal`
+
+![debug_ui_reveal_youtube](../assets/img/debug_ui_reveal_youtube.jpg)

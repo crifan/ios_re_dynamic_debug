@@ -14,14 +14,12 @@ iOS逆向，从`是否要运行代码`的角度来说，分：
       * 图形界面：`Xcode + MonkeyDev`
       * 命令行：`debugserver + lldb`
       * `Frida`
-      * `IDA`
-        * 【整理Book】逆向利器：IDA
+      * [IDA](https://book.crifan.org/books/reverse_tool_ida/website/)
     * 涉及到的相关子领域
       * `反调试`和`反反调试`
       * Xcode调试心得
         * 【整理Book】Xcode开发：调试心得
-      * LLDB调试心得
-        * 【整理Book】Xcode内置调试器：LLDB
+      * [Xcode内置调试器：LLDB](https://book.crifan.org/books/xcode_debugger_lldb/website/)
   * 调试界面元素
     * `Reveal`
     * `Cycript`
