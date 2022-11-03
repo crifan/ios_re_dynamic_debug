@@ -19,5 +19,6 @@
     * [objc_msgSend](debug_summary/objc/objc_msgsend.md)
     * [Runtime](debug_summary/objc/runtime.md)
   * [po](debug_summary/po.md)
+* [子教程](sub_book/README.md)
 * [附录](appendix/README.md)
   * [参考资料](appendix/reference.md)
