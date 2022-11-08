@@ -8,4 +8,4 @@ iOS逆向的动态调试中，已把部分独立内容整理到子教程：
 相关代码：
 
 * iOSYouTubeAdsFilter
-  * [crifan/iOSYouTubeAdsFilter: MonkeyDev+Xcode项目，iOS逆向YouTube，尝试实现广告过滤功能 (github.com)(https://github.com/crifan/iOSYouTubeAdsFilter)
+  * [crifan/iOSYouTubeAdsFilter: MonkeyDev+Xcode项目，iOS逆向YouTube，尝试实现广告过滤功能](https://github.com/crifan/iOSYouTubeAdsFilter)
