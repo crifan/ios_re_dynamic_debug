@@ -16,3 +16,12 @@ TODO：
 * 【记录】iOS的iPhone中安装Frida
 
 ---
+
+* `Frida`
+  * 主要用途：iOS逆向期间，写hook函数，动态调试和研究代码逻辑
+  * 主页
+    * https://www.frida.re
+      * Frida • A world-class dynamic instrumentation framework
+      * Inject JavaScript to explore native apps on Windows, macOS, GNU/Linux, iOS, Android, and QNX
+      * you can make experiments without process restarting.
+      * Of course production-level tweaks must be supplied as native .dylib/.plist pair.
