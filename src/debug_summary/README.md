@@ -13,6 +13,7 @@ TODO：
   * 【整理】iOS逆向涉及内容：C++中的vtable
 * 其他
   * 【已解决】iOS逆向：查看NSMutableURLRequest的HTTPBody的data
+  * 【已解决】Xcode中调试iOS的app再次报错：Thread EXC_BREAKPOINT code 1 subcode 0x1bf09c598
 
 ---
 

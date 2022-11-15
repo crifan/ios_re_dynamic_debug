@@ -13,6 +13,7 @@
   * [LLDBTools](debug_ui/lldbtools.md)
   * [chisel](debug_ui/chisel.md)
   * [FLEX](debug_ui/flex.md)
+  * [Passionfruit](debug_ui/passionfruit.md)
 * [动态调试心得](debug_summary/README.md)
   * [Xcode相关](debug_summary/xcode.md)
   * [ObjC](debug_summary/objc/README.md)
