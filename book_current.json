@@ -1,6 +1,6 @@
 {
   "title": "iOS逆向开发：动态调试",
-  "description": "介绍iOS逆向中的动态调试，包括动态调试的概览；以及调试代码逻辑方面，包括调试工具的MonkeyDev、lldb+debugserver、Frida等；以及相关子领域，比如反调试和反反调试等；以及查看界面元素的工具，比如Reveal、Cycript、LLDBTools、chisel、FLEX等；最后给出一些经验心得。",
+  "description": "介绍iOS逆向中的动态调试，包括动态调试的概览；以及调试代码逻辑方面，包括调试工具的MonkeyDev、lldb+debugserver、Frida等；以及相关子领域，比如反调试和反反调试等；以及查看界面元素的工具，比如Reveal、Cycript、LLDBTools、chisel、FLEX等；且详细介绍了Cycript的使用和心得；最后给出一些经验心得。",
   "pluginsConfig": {
     "github-buttons": {
       "buttons": [
