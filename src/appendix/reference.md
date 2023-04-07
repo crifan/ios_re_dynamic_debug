@@ -10,8 +10,22 @@
 * 【已解决】Mac中下载和安装Reveal
 * 【已解决】MonkeyDev中如何使用Reveal调试YouTube广告页面元素
 * 【已解决】Mac中Reveal中看不到MonkeyDev调试的iPhone设备
-* 
+* 【未解决】iOS逆向AppleStore：用debugserver+lldb调试ipa
+* 【已解决】debugserver调试iOS抖音报错：Failed to get connection from a remote gdb process
+* 【未解决】iOS中debugserver调试报错：Failed to get connection from a remote gdb process
+* 【已解决】debugserver带日志运行报错：Failed to open log file for writing errno 1 Operation not permitted
+* 【已解决】用debugserver启动iPhone中抖音app
+* 【已解决】Mac中如何用lldb调试iPhone中的app
+* 【未解决】iOS中debugserver启动报错：failed to launch process debugserver Operation not permitted
 * 【记录】XCode+MonkeyDev动态调试YouTube类：YTWatchMiniBarViewController
+* 【未解决】iOS逆向iOS15的debugserver：找其他版本debugserver看是否可用
+* 【未解决】iOS逆向iOS15的debugserver：Mac端找到的debugserver
+* 【记录】iOS越狱：XinaA15的rootless越狱后iPhone中的debugserver
+* 【未解决】iOS逆向iOS15的debugserver：运行报错Killed 9
+* 【记录】iOS越狱：如何写回改动后的debugserver到rootless越狱iPhone中
+* 【已解决】把增加了权限的debugserver拷贝到越狱iPhone中
+* 【已解决】debugserver启动iOS的app抖音报错：Segmentation fault 11
+* 【已解决】用debugserver和lldb去调试iOS的app
 * 
 * [iOS逆向攻防实战 - 掘金 (juejin.cn)](https://juejin.cn/post/7073109091320610829)
 * [SpringBoard tweak 双击图标启动debugserver - 干货分享 - 睿论坛](https://iosre.com/t/springboard-tweak-debugserver/16420/17)
@@ -24,4 +38,5 @@
 * [Cycript的一些基础使用 - 简书 (jianshu.com)](https://www.jianshu.com/p/72a17883f68e)
 * [CoderMJLee/mjcript: 【越狱-逆向】基于Cycript实现的一些实用函数 (github.com)](https://github.com/CoderMJLee/mjcript)
 * [mjcript/mjcript.cy at master · CoderMJLee/mjcript (github.com)](https://github.com/CoderMJLee/mjcript/blob/master/mjcript.cy)
+* [debugserver - iPhone Development Wiki](https://iphonedev.wiki/index.php/Debugserver#Alternative_Instructions_.2864-bit_compatible.29)
 * 
