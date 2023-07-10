@@ -1,27 +1,21 @@
 # Frida
 
-TODO：
-
-* 【记录】iOS的iPhone中安装Frida
-* 【未解决】用Frida动态调试iOS版抖音app
-* 【已解决】frida启动抖音app报错：Failed to attach need Gadget to attach on jailed iOS
-* 【已解决】Frida中如何通过frida启动被测app程序iOS版抖音
-* 【未解决】frida去hook函数_dyld_get_image_name时打印参数为字符串
-* 【未解决】frida调试抖音app去hook函数：_dyld_get_image_name
-* 【已解决】frida调试进程直接运行不要每次都输入%resume才运行
-* 【已解决】用frida启动hook调试iOS抖音app
-* 【未解决】Mac中frida-trace报错：Failed to spawn unable to find process with name
-* 【未解决】用Frida的frida-trace去hook函数iOS版抖音
-* 【记录】frida的frida-ps用法
-* 【记录】iOS的iPhone中安装Frida
-
----
-
-* `Frida`
-  * 主要用途：iOS逆向期间，写hook函数，动态调试和研究代码逻辑
-  * 主页
-    * https://www.frida.re
-      * Frida • A world-class dynamic instrumentation framework
-      * Inject JavaScript to explore native apps on Windows, macOS, GNU/Linux, iOS, Android, and QNX
-      * you can make experiments without process restarting.
-      * Of course production-level tweaks must be supplied as native .dylib/.plist pair.
+* 概述
+  * `Frida`
+    * 概述
+      * `Android`、`iOS`的app逆向等领域中，最常用的工具之一
+    * 主要用法：iOS逆向期间，用`frida`和`frida-trace`去动态调试代码逻辑
+    * 一句话描述
+      * A world-class Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers
+        * Inject JavaScript to observe and reprogram running programs on Windows, macOS, GNU/Linux, iOS, watchOS, tvOS, Android, FreeBSD, and QNX
+    * 主页
+      * https://frida.re/
+    * 作者：`oleavr`=`Ole André Vadla Ravnås`
+      * Github
+        * https://github.com/oleavr
+      * 所属公司
+        * NowSecure
+          * https://www.nowsecure.com/
+* 详解
+  * 独立子教程
+    * [逆向调试利器：Frida](https://book.crifan.org/books/reverse_debug_frida/website/)
