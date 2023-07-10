@@ -1,6 +1,6 @@
 # iOS逆向动态调试概览
 
-iOS逆向，从`是否要运行代码`的角度来说，分：
+[iOS逆向](http://book.crifan.org/books/ios_reverse_dev/website)，从`是否要运行代码`的角度来说，分：
 
 * 不要运行代码的：[静态分析](https://book.crifan.org/books/ios_re_static_analysis/website/)
 * 要运行代码的：`动态调试`
