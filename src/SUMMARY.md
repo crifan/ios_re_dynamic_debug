@@ -19,6 +19,7 @@
   * [FLEX](debug_ui/flex.md)
   * [Passionfruit](debug_ui/passionfruit.md)
 * [动态调试心得](debug_summary/README.md)
+  * [调试手段对比](debug_summary/debug_tool_diff.md)
   * [Xcode相关](debug_summary/xcode.md)
   * [ObjC](debug_summary/objc/README.md)
     * [objc_msgSend](debug_summary/objc/objc_msgsend.md)
