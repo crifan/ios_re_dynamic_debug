@@ -11,18 +11,18 @@ iOS逆向，从`是否要运行代码`的角度来说，分：
 * 主要涉及的内容=领域
   * 调试代码逻辑
     * 常见调试工具
-      * 图形界面：`Xcode + MonkeyDev`
-      * 命令行：`debugserver + lldb`
-      * `Frida`
+      * 图形界面：[Xcode + MonkeyDev](https://book.crifan.org/books/ios_re_monkeydev_debug/website/)
+      * 命令行：[debugserver + lldb](../debug_code/lldb_debugserver.md)
+      * [Frida](https://book.crifan.org/books/reverse_debug_frida/website/)
       * [IDA](https://book.crifan.org/books/reverse_tool_ida/website/)
     * 涉及到的相关子领域
-      * `反调试`和`反反调试`
+      * [反调试和反反调试](../anti_debug_related.md)
       * Xcode调试心得
-        * 【整理Book】Xcode开发：调试心得
+        * [Xcode开发：调试心得](http://book.crifan.org/books/xcode_dev_debug_summary/website/)
       * [Xcode内置调试器：LLDB](https://book.crifan.org/books/xcode_debugger_lldb/website/)
   * 调试界面元素
-    * `Reveal`
-    * `Cycript`
-    * （MonkeyDev的）`LLDBTools`
-    * `chisel`
-    * `FLEX`
+    * [Reveal](../debug_ui/reveal.md)
+    * [Cycript](../debug_ui/cycript/README.md)
+    * [LLDBTools](../debug_ui/lldbtools.md)
+    * [chisel](../debug_ui/chisel.md)
+    * [FLEX](../debug_ui/flex.md)

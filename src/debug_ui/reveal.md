@@ -19,9 +19,13 @@ iOS逆向中，用来调试界面元素，比较好用的工具之一就是：`R
 
 ### 下载安装Reveal
 
-从[这里](https://www.macwk.com/soft/reveal)下载到[Reveal_24_(12917)__macwk.com.dmg](https://mac.qdrayst.com/oss01/498/Reveal_24_(12917)__macwk.com.dmg)，然后安装：
+从网上下载到Reveal的dmg
 
-![reveal_dmg_install](../assets/img/reveal_dmg_install.jpg)
+注：https://www.macwk.com 网站2022年10月5日已关站，无法访问
+
+然后安装：
+
+![reveal_dmg_install](../assets/img/reveal_dmg_install.png)
 
 ### 确保`RevealServer.framework`版本一致
 
