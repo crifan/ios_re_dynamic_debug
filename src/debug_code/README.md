@@ -21,4 +21,4 @@ iOS逆向中的动态调试，其中主要是关于，用各种调试工具去�
 * Xcode调试心得
   * [Xcode开发：调试心得](http://book.crifan.org/books/xcode_dev_debug_summary/website/)
 * LLDB调试心得
-  * [Xcode内置调试器：LLDB](https://book.crifan.org/books/xcode_debugger_lldb/website/)
+  * [主流调试器：LLDB](https://book.crifan.org/books/popular_debugger_lldb/website/)

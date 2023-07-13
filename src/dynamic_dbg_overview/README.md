@@ -13,13 +13,12 @@
     * 常见调试工具
       * 图形界面：[Xcode + MonkeyDev](https://book.crifan.org/books/ios_re_monkeydev_debug/website/)
       * 命令行：[debugserver + lldb](../debug_code/lldb_debugserver.md)
+        * [主流调试器：LLDB](https://book.crifan.org/books/popular_debugger_lldb/website/)
       * [Frida](https://book.crifan.org/books/reverse_debug_frida/website/)
       * [IDA](https://book.crifan.org/books/reverse_tool_ida/website/)
     * 涉及到的相关子领域
       * [反调试和反反调试](../anti_debug_related.md)
-      * Xcode调试心得
-        * [Xcode开发：调试心得](http://book.crifan.org/books/xcode_dev_debug_summary/website/)
-      * [Xcode内置调试器：LLDB](https://book.crifan.org/books/xcode_debugger_lldb/website/)
+      * [Xcode开发：调试心得](http://book.crifan.org/books/xcode_dev_debug_summary/website/)
   * 调试界面元素
     * [Reveal](../debug_ui/reveal.md)
     * [Cycript](../debug_ui/cycript/README.md)
