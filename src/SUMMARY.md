@@ -4,6 +4,7 @@
 * [iOS逆向动态调试概览](dynamic_dbg_overview/README.md)
 * [反调试和反反调试](anti_debug_related.md)
 * [调试代码逻辑](debug_code/README.md)
+  * [Xcode](debug_code/xcode.md)
   * [MonkeyDev](debug_code/monkeydev.md)
   * [lldb+debugserver](debug_code/lldb_debugserver.md)
   * [Frida](debug_code/frida.md)

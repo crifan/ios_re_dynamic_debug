@@ -10,7 +10,7 @@ iOS逆向时，调试代码逻辑的常用调试工具之一是：命令行的`l
   * `iPhone`中的`Server`端：**debugserver**=`lldb server`
   * `Mac`中的`Client`端：**lldb**=`lldb client`
 * 基本架构
-  * ![lldb_debugserver_arch](../assets/img/lldb_debugserver_arch.jpg)
+  * ![lldb_debugserver_arch](../assets/img/lldb_debugserver_arch.png)
 
 ### debugserver
 
