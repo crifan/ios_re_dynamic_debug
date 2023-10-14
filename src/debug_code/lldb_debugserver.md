@@ -176,7 +176,7 @@ scp debugserver root@192.168.0.58:/usr/bin
 说明：
 
 * 为何没有拷贝回/覆盖原先的`/Developer/usr/bin/debugserver`？
-  * 因为`/Developer`是`ramdisk`挂载的，是`readonly``只读`的，无法写入
+  * 因为`/Developer`是`ramdisk`挂载的，是`readonly`=`只读`的，无法写入
 * 为何选择路径`/usr/bin`？
   * 用于存放可执行文件工具的路径，`/usr/bin`是常见之一，比较适合此处用途
     * 其他目录，理论上也可以：
@@ -197,7 +197,7 @@ scp debugserver root@192.168.0.58:/usr/bin
 
 概述：
 
-* 先手动启动app，再去用`debugserver`挂载`attach`
+* Attach模式：先手动启动app，再去用`debugserver`挂载`attach`
   * `-a`加上`PID`或`app名`
     * `PID`=进程ID
       ```bash
@@ -221,10 +221,21 @@ scp debugserver root@192.168.0.58:/usr/bin
       ```bash
       debugserver -g 0.0.0.0:20221 -a 10194
       ```
-* 直接用debugserver启动app
+* Spaw模式：直接用debugserver启动app
   ```bash
   debugserver -x auto 0.0.0.0:20221 /private/var/xxx/Aweme.app/Aweme
   ```
+  * 注：此处app的二进制的完整路径，有多种方式可以得到
+    * 方式1：通过爱思助手查看已安装的app的相关路径
+    * 方式2：通过前面的Attach模式调试期间通过`image list -o -f`查看得到
+      * 举例
+        * WhatsApp的路径：`/private/var/containers/Bundle/Application/CCFD22D2-32EE-4F23-9C81-226663100D40/WhatsApp.app/WhatsApp`
+          * Attach模式调试时可查看到
+            ```bash
+            (lldb) image list -o -f
+            [  0] 0x0000000004c6c000 /private/var/containers/Bundle/Application/CCFD22D2-32EE-4F23-9C81-226663100D40/WhatsApp.app/WhatsApp(0x0000000104c6c000)
+            ...
+            ```
 
 * 说明
   * `0.0.0.0`：比较好理解，表示：允许（来自外部的）任意IP访问

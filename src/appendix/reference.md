@@ -26,6 +26,7 @@
 * 【已解决】把增加了权限的debugserver拷贝到越狱iPhone中
 * 【已解决】debugserver启动iOS的app抖音报错：Segmentation fault 11
 * 【已解决】用debugserver和lldb去调试iOS的app
+* 【记录】iOS逆向WhatsApp：lldb+debugserver调试时加载的image镜像列表
 * 
 * [iOS逆向攻防实战 - 掘金 (juejin.cn)](https://juejin.cn/post/7073109091320610829)
 * [SpringBoard tweak 双击图标启动debugserver - 干货分享 - 睿论坛](https://iosre.com/t/springboard-tweak-debugserver/16420/17)
