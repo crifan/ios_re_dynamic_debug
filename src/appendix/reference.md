@@ -27,6 +27,12 @@
 * 【已解决】debugserver启动iOS的app抖音报错：Segmentation fault 11
 * 【已解决】用debugserver和lldb去调试iOS的app
 * 【记录】iOS逆向WhatsApp：lldb+debugserver调试时加载的image镜像列表
+* 【已解决】Mac中lldb调试iOS的app抖音报错：Process exited with status 45
+* 【记录】分析iOS抖音入口函数_awemeMain运行逻辑
+* 【已解决】抖音反反调试：把二进制AwemeCore的svc 0x80指令替换成nop指令
+* 【已解决】Mac中用IDA实现抖音二进制AwemeCore的svc 0x80替换成nop指令
+* 
+* [iOS逆向调试：debugserver+lldb](https://book.crifan.org/books/ios_re_debug_debugserver_lldb/website/)
 * 
 * [iOS逆向攻防实战 - 掘金 (juejin.cn)](https://juejin.cn/post/7073109091320610829)
 * [SpringBoard tweak 双击图标启动debugserver - 干货分享 - 睿论坛](https://iosre.com/t/springboard-tweak-debugserver/16420/17)
@@ -40,4 +46,7 @@
 * [CoderMJLee/mjcript: 【越狱-逆向】基于Cycript实现的一些实用函数 (github.com)](https://github.com/CoderMJLee/mjcript)
 * [mjcript/mjcript.cy at master · CoderMJLee/mjcript (github.com)](https://github.com/CoderMJLee/mjcript/blob/master/mjcript.cy)
 * [debugserver - iPhone Development Wiki](https://iphonedev.wiki/index.php/Debugserver#Alternative_Instructions_.2864-bit_compatible.29)
+* [c - lldb finding exit point of app - Stack Overflow](https://stackoverflow.com/questions/36237322/lldb-finding-exit-point-of-app)
+* [errno.h (apple.com)](https://opensource.apple.com/source/xnu/xnu-792/bsd/sys/errno.h.auto.html)
+* [Online ARM to HEX Converter (armconverter.com)](https://armconverter.com/?code=NOP)
 * 

@@ -5,7 +5,7 @@ TODO：
 * 【整理】iOS反越狱相关：反调试 反反调试
 * 【已解决】iOS反调试和反反调试：syscall的ptrace
 * 【未解决】iOS反调试和反反调试：svc 0x80的syscall的ptrace
-* 【已解决】Mac中lldb调试iOS的app抖音报错：Process exited with status 45
+* 【已解决】debugserver启动iOS的app抖音报错：Segmentation fault 11
 
 ---
 
@@ -19,3 +19,9 @@ TODO：
 ## 反调试
 
 ## 反反调试
+
+* 概述=核心思路
+  * 先去研究清楚，具体对方用了什么反调试手段
+  * 再去针对性的处理
+
+### 举例
